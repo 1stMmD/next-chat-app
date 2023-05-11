@@ -60,7 +60,7 @@ const AuthForm = () => {
                     }}
                     block secondary 
                     key={idx}>
-                        <Icon strokeWidth={1.5} size={16} stroke="currentColor" fill="none"/>
+                        <Icon strokeWidth={1} size={16} fill="currentColor" stroke="currentColor"/>
                         
                         <span
                         className='

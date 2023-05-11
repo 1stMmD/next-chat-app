@@ -1,5 +1,6 @@
 import AuthForm from "@/components/auth-form"
 import { Icons } from "@/components/icons"
+import Link from "next/link"
 
 interface props {
     
@@ -20,6 +21,10 @@ const Login = ({
         h-full
         font-inherit
         ">
+            <nav>
+                
+            </nav>
+
             <div
             className="
             w-[min(100%,350px)]
@@ -46,11 +51,25 @@ const Login = ({
                 text-neutral-800/60
                 mt-2
                 mb-6
+                text-[14px]
                 ">
                     Enter your email to sign in to your account
                 </p>
 
                 <AuthForm/>
+
+                <Link 
+                className="
+                transition-colors
+                mt-4
+                text-[14px]
+                underline
+                text-neutral-800/60
+                hover:text-neutral-800
+                "
+                href="/register">
+                   {"Don't have an account? Sign up"}
+                </Link>
             </div>
         </main>
     )

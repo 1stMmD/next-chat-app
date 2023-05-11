@@ -34,7 +34,6 @@ const Input = React.forwardRef<
         relative py-2 px-4
         border-[1px]
         border-neutral-400
-        focus-within:border-neutral-400
         focus-within:shadow-[0px_0px_0px_2px]
         focus-within:shadow-neutral-500/10
         flex items-center justify-center

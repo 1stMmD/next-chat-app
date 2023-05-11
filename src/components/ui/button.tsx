@@ -14,9 +14,9 @@ const Button = React.forwardRef<
     <button
     ref={ref}
     className={cn(
-        "px-2.5 py-2 text-[14px] rounded-md flex gap-1 items-center justify-center",
-        secondary ?"text-neutral-800 bg-white hover:bg-neutral-800/5 border-[1px] border-neutral-400" :
-        "bg-neutral-800 text-white hover:bg-neutral-800/90",
+        "px-2.5 py-2 text-[14px] rounded-md flex gap-1 items-center justify-center hover:shadow-[0px_0px_0px_2px] hover:shadow-neutral-500/10",
+        secondary ?"text-neutral-800 bg-white border-[1px] border-neutral-400 hover:bg-neutral-800/3 " :
+        "bg-neutral-800 text-white hover:bg-neutral-800/90 border-[1px] border-neutral-800 hover:border-neutral-800/90",
         block ? "w-full" : "w-fit",
         className
     )}
